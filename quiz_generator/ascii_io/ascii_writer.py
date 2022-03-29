@@ -1,9 +1,9 @@
 import os
 from pathlib import Path
+from typing import Sequence
 
-from ..core.handout import Handout
-from ..core.question import Question
 from ..base_io import IOWriter
+from ..core.question import Question
 
 
 class ASCIIWriter(IOWriter):
@@ -20,14 +20,14 @@ class ASCIIWriter(IOWriter):
         answer = f'Answer: {question_choices[answer_index]}'
         return f'{prompt}\n{choices}\n{answer}'
 
-    def write(self, handout: Handout) -> None:
+    def write(self, questions: Sequence[Question]) -> None:
         directory = self.path
         if not os.path.isdir(directory):
             os.mkdir(directory)
 
         filepath = f'{directory}/handout{self.next_id}.txt'
         with open(filepath, 'w', encoding='utf-8') as f:
-            for num, question in enumerate(handout, 1):
+            for num, question in enumerate(questions, 1):
                 text = self._question_to_text(question)
                 print(f'{num}.', text, file=f, end='\n\n')
 

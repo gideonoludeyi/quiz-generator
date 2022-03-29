@@ -3,6 +3,7 @@ from pathlib import Path
 from typing import Sequence
 
 from ..core.handout import Handout
+from ..core.question import Question
 
 
 class IOWriter(abc.ABC):
@@ -10,9 +11,9 @@ class IOWriter(abc.ABC):
         self.path = path
 
     @abc.abstractmethod
-    def write(self, handout: Handout) -> None:
+    def write(self, questions: Sequence[Question]) -> None:
         pass
 
-    def write_all(self, handouts: Sequence[Handout]) -> None:
-        for handout in handouts:
-            self.write(handout)
+    def write_all(self, question_sets: Sequence[Sequence[Question]]) -> None:
+        for questions in question_sets:
+            self.write(questions)
