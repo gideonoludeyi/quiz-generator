@@ -1,4 +1,4 @@
-from quiz_generator.ascii import ASCIIReader, ASCIIWriter
+from quiz_generator.ascii_io import ASCIIReader, ASCIIWriter
 from quiz_generator.core.pool import QuestionPool
 from quiz_generator.generator import QuizGenerator
 from quiz_generator.io import IOReader, IOWriter
