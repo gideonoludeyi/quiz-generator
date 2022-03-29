@@ -16,4 +16,5 @@ if __name__ == '__main__':
 
     quiz_generator = QuizGenerator(pool, question_size)
 
-    writer.write_all(quiz_generator.generate_handouts(handout_count))
+    handouts = quiz_generator.generate_handouts(handout_count)
+    writer.write_all(handouts)
