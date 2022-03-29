@@ -14,3 +14,8 @@ class JSONWriter(IOWriter):
 
         with open(self.path, 'w') as f:
             json.dump(data, fp=f)
+
+    def write_all(self, question_sets: Sequence[Sequence[Question]]) -> None:
+        return self.write([question
+                           for questions in question_sets
+                           for question in questions])
