@@ -11,7 +11,7 @@ random_selection = sample
 
 
 class QuestionPool:
-    def __init__(self, source: QuestionSource, strategy: SelectionStrategy = random_selection) -> None:
+    def __init__(self, source: QuestionSource, *, strategy: SelectionStrategy = random_selection) -> None:
         self.questions = source.get()
         self.strategy = strategy
 
