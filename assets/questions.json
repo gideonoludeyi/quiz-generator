@@ -1,0 +1,408 @@
+[
+    {
+        "prompt": "Who is the superhero that is also known as the \u201cMan of Steel?\u201d",
+        "choices": [
+            "Iron Man",
+            "Superman",
+            "Batman",
+            "Hulk"
+        ],
+        "answer_index": 1
+    },
+    {
+        "prompt": "At the end of the Incredible Hulk movie, what does Tony tell Thaddeus Ross?",
+        "choices": [
+            "They are quitting the avengers",
+            "They are putting a team together"
+        ],
+        "answer_index": 1
+    },
+    {
+        "prompt": "What is Batman\u2019s real name?",
+        "choices": [
+            "Bruce Wayne",
+            "Wade Wilson",
+            "Clark Kent",
+            "Hal Jordan"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "Who would you call if Mr. Freeze attacked?",
+        "choices": [
+            "Batman",
+            "Spider-Man",
+            "Green Lantern",
+            "Thor"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "Who is the superhero twin brother of Scarlet Witch?",
+        "choices": [
+            "Quicksilver",
+            "Green Lantern",
+            "Dr. Strange",
+            "Spider-Man"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "What is Superman\u2019s weakness?",
+        "choices": [
+            "Kryptonite",
+            "The Sun",
+            "Infinity Stone",
+            "Mj\u00f6lnir"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "How did Spider-man get his superpowers?",
+        "choices": [
+            "He was bitten by a radioactive spider.",
+            "He fell into a chemical plant."
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "In the Spider-man movie, Uncle Ben said something to Peter. Fill in the blanks: \u201cWith great power, comes great __\u201d",
+        "choices": [
+            "Responsibility",
+            "Rewards",
+            "Influence",
+            "Pride"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "Who killed Thomas and Martha Wayne?",
+        "choices": [
+            "Joe Chill",
+            "James Gordon",
+            "Alfred Pennyworth",
+            "Edward Nigma"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "What is the name of Wonder Woman\u2019s mother?",
+        "choices": [
+            "Hippolyta",
+            "Thena",
+            "Thanos",
+            "Hela"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "What African country is Nakia operating in as a spy before T\u2019Challa arrived and brought her back to Wakanda?",
+        "choices": [
+            "Nigeria",
+            "Congo",
+            "South Africa",
+            "Egypt"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "Who is the villain of \u2018Thor: The Dark World?\u201d",
+        "choices": [
+            "Malekith",
+            "Hela",
+            "Loki",
+            "Thanos"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "Who said this, \u201cWho knows what evil lurks in the hearts of men?\u201d",
+        "choices": [
+            "Moon Knight",
+            "The Shadow",
+            "Batman",
+            "Black Knight"
+        ],
+        "answer_index": 1
+    },
+    {
+        "prompt": "Which superhero has the magic lasso and bullet-proof bracelets?",
+        "choices": [
+            "Wonder Woman",
+            "Spider-Man",
+            "Scarlet Witch",
+            "Green Lantern"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "Who has an indestructible shield?",
+        "choices": [
+            "Captain America",
+            "Winter Soldier",
+            "Juggernaut",
+            "Peacemaker"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "Who is the superhero who can no longer transform back into human form anymore?",
+        "choices": [
+            "The Thing",
+            "Hulk",
+            "Sandman",
+            "Ant-Man"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "Who is Raymond Palmer\u2019s alter ego?",
+        "choices": [
+            "The Atom",
+            "Firestorm",
+            "Ant-Man",
+            "Winter Soldier"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "The Beast is the medical doctor for which movie?",
+        "choices": [
+            "X-Men",
+            "Justice League",
+            "The Avengers",
+            "Guardians of the Galaxy"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "Who is the superhero who can manipulate and resist the weather?",
+        "choices": [
+            "Storm",
+            "Deadpool",
+            "The Flash",
+            "Phoenix"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "Who can calm The Hulk?",
+        "choices": [
+            "Betty Ross",
+            "Pepper Potts",
+            "Bruce Banner",
+            "Thor"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "In Batman Forever, which villain did Jim Carrey play?",
+        "choices": [
+            "Riddler",
+            "Penguin",
+            "Kingpin",
+            "The Joker"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "Who is the character usually romantically paired with Batman?",
+        "choices": [
+            "Catwoman",
+            "Batgirl",
+            "Scarlet Witch",
+            "Wonder Woman"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "Who is Scarlet Speedster?",
+        "choices": [
+            "The Flash",
+            "Quicksilver",
+            "Zoom",
+            "Spider-Man"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "Who gets his power from a ring?",
+        "choices": [
+            "Green Lantern",
+            "Hulk",
+            "Black Panther",
+            "Thanos"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "Which superhero was created by Joe Simon and Jack Kirby?",
+        "choices": [
+            "Captain America",
+            "Spider-Man",
+            "Superman",
+            "Dr. Strange"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "Who is the first Super Villain in Superman?",
+        "choices": [
+            "Ultra Humanite",
+            "General Zod",
+            "Lex Luthor",
+            "Darkseid"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "Who is the first Robin?",
+        "choices": [
+            "Dick Grayson",
+            "Jason Todd",
+            "Tim Drake",
+            "Damian Wayne"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "What color of Kryptonite is not harmful to Superman?",
+        "choices": [
+            "White",
+            "Green",
+            "Red",
+            "Black"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "Where is the Time Stone hidden in Doctor Strange?",
+        "choices": [
+            "Eye of Agamotto",
+            "Mirror Dimension",
+            "Statue of Liberty",
+            "Kamar-Taj"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "What German airport does the clash of Avengers take place?",
+        "choices": [
+            "Leipzig",
+            "Frankfurt",
+            "Berlin",
+            "Munich"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "Which film\u2019s post-credit scene did Thanos first appear?",
+        "choices": [
+            "The Avengers",
+            "Ant-Man",
+            "Guardians of the Galaxy",
+            "Captain America: Civil War"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "What species is Loki?",
+        "choices": [
+            "Frost Giant",
+            "Skrull",
+            "Asgardian",
+            "Dwarf"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "What is the real name of Deadpool?",
+        "choices": [
+            "Wade Wilson",
+            "Damien Wayne",
+            "Charles Xavier",
+            "James Howlett"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "What type of Doctor is Stephen Strange?",
+        "choices": [
+            "Neurosurgeon",
+            "Ophthalmologists",
+            "Mystic Arts",
+            "Philosophy"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "Who killed Tony Stark\u2019s parents?",
+        "choices": [
+            "The Winter Soldier",
+            "Thanos",
+            "Ulysses Klaw",
+            "Baron Zemo"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "Which city do Hawkeye and Black Widow often reminisce?",
+        "choices": [
+            "Budapest",
+            "Barcelona",
+            "Istanbul",
+            "Moscow"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "Which island does Wonder Woman come from?",
+        "choices": [
+            "Paradise Island",
+            "Wakanda",
+            "Fiji Island",
+            "Athens"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "Who says this, \u201cIt\u2019s clobbering time!\u201d",
+        "choices": [
+            "The Thing",
+            "Hulk",
+            "Star-Lord",
+            "Wong"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "What is the name of the newspaper company Peter Parker works for?",
+        "choices": [
+            "The Daily Bugle",
+            "Daily Planet",
+            "Gotham Globe",
+            "The Central City Citizen"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "How did the Fantastic Four get their superpowers?",
+        "choices": [
+            "Cosmic rays",
+            "Gamma radiation",
+            "Bitten by radioactive spiders",
+            "Infinity stones"
+        ],
+        "answer_index": 0
+    },
+    {
+        "prompt": "What is the name of Iron Man\u2019s loyal assistant?",
+        "choices": [
+            "Pepper Potts",
+            "Peter Parker",
+            "Natasha Romanoff",
+            "Harley Keener"
+        ],
+        "answer_index": 0
+    }
+]
