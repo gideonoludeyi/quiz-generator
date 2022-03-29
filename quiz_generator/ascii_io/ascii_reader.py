@@ -11,7 +11,7 @@ class ASCIIReader(IOReader):
             if line.startswith('-'):
                 start = idx
                 break
-        else:
+        else: # if the for loop does not break
             raise ValueError('lines do not contain any choices')
 
         end = start
