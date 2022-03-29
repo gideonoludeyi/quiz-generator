@@ -3,7 +3,7 @@ from pathlib import Path
 
 from ..core.handout import Handout
 from ..core.question import Question
-from ..io import IOWriter
+from ..base_io import IOWriter
 
 
 class ASCIIWriter(IOWriter):

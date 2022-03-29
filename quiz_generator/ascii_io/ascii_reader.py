@@ -1,7 +1,7 @@
 from typing import Iterable, Sequence
 
 from ..core.question import Question
-from ..io import IOReader
+from ..base_io import IOReader
 
 
 class ASCIIReader(IOReader):
@@ -11,7 +11,7 @@ class ASCIIReader(IOReader):
             if line.startswith('-'):
                 start = idx
                 break
-        else: # if the for loop does not break
+        else:  # if the for loop does not break
             raise ValueError('lines do not contain any choices')
 
         end = start

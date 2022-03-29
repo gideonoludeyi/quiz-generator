@@ -1,7 +1,7 @@
 import json
 
 from ..core.handout import Handout
-from ..io import IOWriter
+from ..base_io import IOWriter
 
 
 class JSONWriter(IOWriter):

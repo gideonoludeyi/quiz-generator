@@ -2,7 +2,7 @@ import json
 from typing import Sequence
 
 from ..core.question import Question
-from ..io.reader import IOReader
+from ..base_io.reader import IOReader
 
 
 class JSONReader(IOReader):
