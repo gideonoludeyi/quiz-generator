@@ -2,7 +2,6 @@ import abc
 from pathlib import Path
 from typing import Sequence
 
-from ..core.handout import Handout
 from ..core.question import Question
 
 
