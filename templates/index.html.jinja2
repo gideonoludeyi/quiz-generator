@@ -9,17 +9,24 @@
     </head>
     <body>
         <h1>Quiz Generator</h1>
-        <form action="/download" method="get">
-            <label for="filetype">Choose a format:</label>
+        <form action="/generate" method="post" enctype="multipart/form-data">
+            <input
+                type="file"
+                name="file"
+                accept="text/plain,application/json"
+            />
 
-            <select name="filetype" id="download-format">
+            <select name="filetype">
                 {% for filetype, name in file_formats.items() %}
                     <option value="{{ filetype }}">{{ name }}</option>
                 {% endfor %}
             </select>
 
-            <button type="submit">Download</button>
+            <div>
+                <button type="submit">Generate Handouts</button>
+            </div>
         </form>
+        
         <footer>
             <small
                 >Sourced from
