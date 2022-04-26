@@ -6,6 +6,8 @@ authors = ["gideonoludeyi"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+fastapi = "^0.75.2"
+uvicorn = {extras = ["standard"], version = "^0.17.6"}
 
 [tool.poetry.dev-dependencies]
 autopep8 = "^1.6.0"
