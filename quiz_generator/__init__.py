@@ -14,7 +14,11 @@ if __name__ == '__main__':
 
     pool: QuestionPool = QuestionPool(reader)
 
-    quiz_generator = QuizGenerator(pool, question_size)
+    quiz_generator = QuizGenerator(pool)
 
-    handouts = quiz_generator.generate_handouts(handout_count)
+    handouts = quiz_generator.generate_handouts(
+        num_handouts=handout_count,
+        num_questions_per_handout=question_size
+    )
+
     writer.write_all(handouts)

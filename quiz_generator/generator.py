@@ -5,11 +5,8 @@ from .core.pool import QuestionPool
 
 
 class QuizGenerator:
-    def __init__(self, pool: QuestionPool, question_count: int) -> None:
+    def __init__(self, pool: QuestionPool) -> None:
         self.pool = pool
-        self.question_count = question_count
 
-    def generate_handouts(self, size: int) -> Sequence[Handout]:
-        count = self.question_count
-        handouts = [self.pool.select(count) for _ in range(size)]
-        return handouts
+    def generate_handouts(self, *, num_questions_per_handout: int, num_handouts: int) -> Sequence[Handout]:
+        return [self.pool.select(num_questions_per_handout) for _ in range(num_handouts)]
