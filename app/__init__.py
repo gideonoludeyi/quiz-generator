@@ -34,7 +34,7 @@ def download(filetype: str = 'txt') -> Response:
 @app.post('/generate')
 def generate(file: UploadFile, filetype: str = 'txt', num_handouts: int = 1, num_questions_per_handout: int = 1):
     try:
-        source = upload_file_to_source(file)
+        source = get_question_source(file)
     except UnsupportedFileExtension as e:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST,
                             detail=f'Unsupported file extension: {e.extension}')
@@ -48,7 +48,7 @@ def generate(file: UploadFile, filetype: str = 'txt', num_handouts: int = 1, num
     return handouts
 
 
-def upload_file_to_source(file: UploadFile) -> QuestionSource:
+def get_question_source(file: UploadFile) -> QuestionSource:
     *_, file_extension = os.path.splitext(file.filename)
     match file_extension:
         case '.txt' | '.text':
