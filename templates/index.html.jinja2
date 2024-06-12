@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+        <title>Quiz Generator</title>
+    </head>
+    <body>
+        <h1>Quiz Generator</h1>
+        <form action="/generate" method="post" enctype="multipart/form-data">
+            <input
+                type="file"
+                name="file"
+                accept="text/plain,application/json"
+            />
+
+            <select name="filetype">
+                {% for filetype, name in file_formats.items() %}
+                    <option value="{{ filetype }}">{{ name }}</option>
+                {% endfor %}
+            </select>
+
+            <div>
+                <button type="submit">Generate Handouts</button>
+            </div>
+        </form>
+        
+        <footer>
+            <small
+                >Sourced from
+                <a
+                    href="https://bigquizthing.com/trivia-questions-ans/superhero-trivia-comic-book-questions/"
+                    >Big Quiz Thing | 80 SUPERHERO TRIVIA & COMIC BOOK
+                    QUESTIONS</a
+                ></small
+            >
+        </footer>
+    </body>
+</html>

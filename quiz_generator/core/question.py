@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 
 
-@dataclass(frozen=True)
+@dataclass(frozen=True, eq=True)
 class Question:
     prompt: str
     choices: tuple[str, ...]
